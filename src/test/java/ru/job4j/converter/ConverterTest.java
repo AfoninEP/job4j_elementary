@@ -13,7 +13,6 @@ class ConverterTest {
         float value = 0.0001f;
         assertThat(output).isEqualTo(expected, withPrecision(value));
     }
-
     @Test
     void whenConvert200RblThen2dot2222Euro() {
         float input = 200;
@@ -22,7 +21,6 @@ class ConverterTest {
         float value = 0.0001f;
         assertThat(output).isEqualTo(expected, withPrecision(value));
     }
-
     @Test
     void whenConvert180RblThen3Dollar() {
         float input = 180;
@@ -31,7 +29,6 @@ class ConverterTest {
         float value = 0.0001f;
         assertThat(output).isEqualTo(expected, withPrecision(value));
     }
-
     @Test
     void whenConvert150RblThen2Dollar() {
         float input = 150;
