@@ -17,7 +17,7 @@ public class MathCalculator {
     }
 
     public static void main(String[] args) {
-        System.out.println("Результат расчета суммы первого метода равен: " + DifferenceAndDivision(10, 20));
+        System.out.println("Результат расчета суммы первого метода равен: " + DifferenceAndDivision(20, 10));
         System.out.println("Результат расчета суммы второго метода равен: " + sumAndMultiplyAndDifferenceAndDivision(10, 20));
     }
 }
