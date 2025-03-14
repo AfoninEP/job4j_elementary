@@ -8,6 +8,7 @@ public class MathCalculator {
         return MathFunction.difference(first, second)
                 + MathFunction.division(first, second);
     }
+
     public static double sumAndMultiplyAndDifferenceAndDivision(double first, double second) {
         return MathFunction.sum(first, second)
                 + MathFunction.multiply(first, second)
