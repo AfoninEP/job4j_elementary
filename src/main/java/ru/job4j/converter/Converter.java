@@ -1,6 +1,6 @@
 /**
- *Assuming the conversion rate is 1 Euro = 90 Rubles
- * Assuming the conversion rate is 1 Dollar = 75 Rubles
+ *Assuming the conversion rate is 1 Euro = 90 Rubles;
+ * Assuming the conversion rate is 1 Dollar = 75 Rubles;
  */
 package ru.job4j.converter;
 
