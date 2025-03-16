@@ -9,11 +9,11 @@ public class MathCalculator {
                 + MathFunction.division (first, second);
     }
 
-    public static double sumall(double first, double second) {
-        return MathFunction.sum(first, second)
-                + MathFunction.multiply(first, second)
-                + MathFunction.difference(first, second)
-                + MathFunction.division(first, second);
+    public static double sumall (double first, double second) {
+        return MathFunction.sum (first, second)
+                + MathFunction.multiply (first, second)
+                + MathFunction.difference (first, second)
+                + MathFunction.division (first, second);
         }
 
     public static void main (String[] args) {
