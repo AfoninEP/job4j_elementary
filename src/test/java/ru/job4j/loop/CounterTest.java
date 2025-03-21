@@ -1,8 +1,3 @@
-/**
- * Тестирование суммы всех чисел, если Start <= Finish.
- * Если Start > Аinish, то сумма будет равна 0.
- */
-
 package ru.job4j.loop;
 
 import org.junit.jupiter.api.Test;
