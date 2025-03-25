@@ -21,6 +21,7 @@ class FactorialTest {
         assertThat(output).isEqualTo(expected);
     }
 
+
     @Test
     void whenCalculateFactorialForOneThenOne() {
         int expected = 1;
