@@ -9,10 +9,24 @@ public class Counter {
         return sum;
     }
 
+    public static int sumByEven(int start, int finish) {
+        int sumByEven = 0;
+        for (int ii = start; ii <= finish; ii++) {
+            if (ii % 2 == 0) {
+                sumByEven += ii;
+            }
+        }
+        return sumByEven;
+    }
+
+
     public static void main(String[] args) {
         System.out.println(sum(0, 10));
         System.out.println(sum(3, 8));
         System.out.println(sum(1, 1));
-        System.out.println(sum(5, 1));
+
+        System.out.println(sumByEven(0, 10));
+        System.out.println(sumByEven(3, 8));
+        System.out.println(sumByEven(1, 1));
     }
 }
