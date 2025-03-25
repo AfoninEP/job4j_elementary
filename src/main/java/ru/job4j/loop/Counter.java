@@ -19,7 +19,6 @@ public class Counter {
         return sumByEven;
     }
 
-
     public static void main(String[] args) {
         System.out.println(sum(0, 10));
         System.out.println(sum(3, 8));
