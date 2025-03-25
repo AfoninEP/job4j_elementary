@@ -9,7 +9,6 @@ public class Factorial {
         return calculate;
     }
 
-
     public static void main(String[] args) {
         System.out.println(calculate(10));
         System.out.println(calculate(5));
