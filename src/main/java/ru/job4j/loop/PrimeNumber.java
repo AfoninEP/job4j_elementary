@@ -10,6 +10,7 @@ public class PrimeNumber {
 
     public static int calc(int finish) {
         int sum = 0;
+
             for (int i = 2; i <= finish; i++) {
             if (isPrime(i)) {
                 sum += 1;
@@ -18,6 +19,7 @@ public class PrimeNumber {
         return sum;
     }
     public static boolean isPrime(int finish) {
+
         for (int i = 2; i * i <= finish; i++) {
             if (finish % i == 0) {
                 return false;
