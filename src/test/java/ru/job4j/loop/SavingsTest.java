@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class SavingsTest {
+
     @Test
     void whenGoal500Deposit100Percent5ThenYears5() {
         double goal = 500;
