@@ -12,7 +12,8 @@ public class Savings {
     public static int years(double goal, double annualDeposit, double percent) {
         int years = 0;
         double total = 0;
-        do { total = total + (annualDeposit + total * percent * 0.01);
+        do {
+            total = total + (annualDeposit + total * percent * 0.01);
             years += 1;
         } while (total < goal);
         return years;
