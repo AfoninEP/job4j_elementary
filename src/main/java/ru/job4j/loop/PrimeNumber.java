@@ -5,7 +5,7 @@ public class PrimeNumber {
         System.out.println(calc(5));
     }
 
-    public static int calc (int finish) {
+    public static int calc(int finish) {
         int count = 0;
         for (int i = 2; i <= finish; i++) {
             if (CheckPrimeNumber.check(i)) {
