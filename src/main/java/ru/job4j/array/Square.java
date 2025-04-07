@@ -8,9 +8,10 @@ public class Square {
         }
         return result;
     }
+
     public static void main(String[] args) {
         int[] array = calculate(4);
-        for (int index = 0; index < array.length; index++) {;
+        for (int index = 0; index < array.length; index++) {
             System.out.println(array[index]);
         }
     }
