@@ -11,6 +11,7 @@ public class FindLoop {
         }
         return result;
     }
+
     public static void main(String[] args) {
         int[] data = new int[] {5, 10, 3};
         for (int index = 0; index < data.length; index++) {
