@@ -19,4 +19,12 @@ public class EqualLastTest {
         boolean result = EqualLast.check(left, right);
         assertThat(result).isFalse();
     }
+
+    @Test
+    public void whenNotEqualLeftNull() {
+        int[] left = {0, 0, 0};
+        int[] right = {5, 4, 3};
+        boolean result = EqualLast.check(left, right);
+        assertThat(result).isFalse();
+    }
 }
