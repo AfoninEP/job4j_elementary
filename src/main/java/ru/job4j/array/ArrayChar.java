@@ -7,12 +7,12 @@ public class ArrayChar {
         if (prefix.length > word.length) {
             return false;
         }
-    for (int i = 0; i < prefix.length; i++) {
-        if (word[i] != prefix[i]) {
-            result = false;
-            break;
+        for (int i = 0; i < prefix.length; i++) {
+            if (word[i] != prefix[i]) {
+                result = false;
+                break;
+            }
         }
-    }
-return result;
+        return result;
     }
 }
