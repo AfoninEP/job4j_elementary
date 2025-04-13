@@ -22,7 +22,7 @@ public class EqualLastTest {
 
     @Test
     public void whenNotEqualLeftNull() {
-        int[] left = {0, 0, 0};
+        int[] left = {};
         int[] right = {5, 4, 3};
         boolean result = EqualLast.check(left, right);
         assertThat(result).isFalse();
