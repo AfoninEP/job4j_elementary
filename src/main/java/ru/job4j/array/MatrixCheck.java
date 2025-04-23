@@ -1,11 +1,11 @@
 package ru.job4j.array;
 
 public class MatrixCheck {
-    public static boolean monoHorizontal(char[][] board, int row) {
+    public static boolean monoVertical(char[][] board, int column) {
         boolean result = true;
-        char first = board[row][0];
-        for (int cell = 1; cell < board[row].length; cell++) {
-            if (board[row][cell] != first) {
+        char first = board[0][column];
+        for (int row = 1; row < board.length; row++) {
+            if (board[row][column] != first) {
                 result = false;
                 break;
             }
