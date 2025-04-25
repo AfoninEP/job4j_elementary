@@ -4,9 +4,6 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class MatrixCheckTest {
-    /**
-     * Моно строка
-     */
 
     @Test
     public void whenHasMonoHorizontal() {
@@ -32,9 +29,6 @@ public class MatrixCheckTest {
         assertThat(result).isFalse();
     }
 
-    /**
-     * Моно столбец
-     */
 
     @Test
     public void whenHasMonoVertical() {
@@ -60,9 +54,6 @@ public class MatrixCheckTest {
         assertThat(result).isFalse();
     }
 
-    /**
-     * Диагональ
-     */
 
     @Test
     public void whenDiagonalFullX() {
@@ -100,9 +91,6 @@ public class MatrixCheckTest {
         assertThat(result).containsExactly(expected);
     }
 
-    /**
-     * Сокобан
-     */
 
     @Test
     public void whenDataMonoByTrueThenTrue() {
