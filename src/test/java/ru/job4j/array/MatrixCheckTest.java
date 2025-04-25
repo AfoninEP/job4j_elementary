@@ -4,6 +4,61 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class MatrixCheckTest {
+    /**
+     * Моно строка в матрице
+     */
+    @Test
+    public void whenHasMonoHorizontal() {
+        char[][] input = {
+                {' ', ' ', ' '},
+                {'X', 'X', 'X'},
+                {' ', ' ', ' '},
+        };
+        int row = 1;
+        boolean result = MatrixCheck.monoHorizontal(input, row);
+        assertThat(result).isTrue();
+    }
+
+    @Test
+    public void whenNotMonoHorizontal() {
+        char[][] input = {
+                {' ', ' ', ' '},
+                {' ', 'X', ' '},
+                {' ', ' ', ' '},
+        };
+        int row = 1;
+        boolean result = MatrixCheck.monoHorizontal(input, row);
+        assertThat(result).isFalse();
+    }
+    /**
+     * Моно столбец в матрице
+     */
+    @Test
+    public void whenHasMonoVertical() {
+        char[][] input = {
+                {' ', ' ', 'X'},
+                {' ', ' ', 'X'},
+                {' ', ' ', 'X'},
+        };
+        int column = 2;
+        boolean result = MatrixCheck.monoVertical(input, column);
+        assertThat(result).isTrue();
+    }
+
+    @Test
+    public void whenNotMonoVertical() {
+        char[][] input = {
+                {' ', ' ', 'X'},
+                {' ', 'X', 'X'},
+                {' ', ' ', 'X'},
+        };
+        int column = 1;
+        boolean result = MatrixCheck.monoVertical(input, column);
+        assertThat(result).isFalse();
+    }
+    /**
+     * Массив из диагонали матрицы
+     */
     @Test
     public void whenDiagonalFullX() {
         char[][] input = {
