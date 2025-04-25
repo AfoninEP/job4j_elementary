@@ -4,9 +4,11 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class MatrixCheckTest {
+
     /**
      * Моно строка в матрице
      */
+
     @Test
     public void whenHasMonoHorizontal() {
         char[][] input = {
@@ -30,9 +32,11 @@ public class MatrixCheckTest {
         boolean result = MatrixCheck.monoHorizontal(input, row);
         assertThat(result).isFalse();
     }
+
     /**
      * Моно столбец в матрице
      */
+
     @Test
     public void whenHasMonoVertical() {
         char[][] input = {
@@ -56,9 +60,11 @@ public class MatrixCheckTest {
         boolean result = MatrixCheck.monoVertical(input, column);
         assertThat(result).isFalse();
     }
+
     /**
      * Массив из диагонали матрицы
      */
+
     @Test
     public void whenDiagonalFullX() {
         char[][] input = {
