@@ -2,7 +2,7 @@ package ru.job4j.array;
 
 public class MatrixCheck {
     /**
-     * Моно строка в матрице
+     * Моно строка
      */
 
     public static boolean monoHorizontal(char[][] board, int row) {
@@ -17,7 +17,7 @@ public class MatrixCheck {
     }
 
     /**
-     * Моно столбец в матрице
+     * Моно столбец
      */
 
     public static boolean monoVertical(char[][] board, int column) {
@@ -32,7 +32,7 @@ public class MatrixCheck {
     }
 
     /**
-     * Массив из диагонали матрицы
+     * Диагональ
      */
 
     public static char[] extractDiagonal(char[][] board) {
@@ -44,7 +44,7 @@ public class MatrixCheck {
     }
 
     /**
-     * Выигрышные комбинации в сокобан
+     * Сокобан
      */
 
     public static boolean isWin(char[][] board) {

@@ -5,7 +5,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class MatrixCheckTest {
     /**
-     * Моно строка в матрице
+     * Моно строка
      */
 
     @Test
@@ -33,7 +33,7 @@ public class MatrixCheckTest {
     }
 
     /**
-     * Моно столбец в матрице
+     * Моно столбец
      */
 
     @Test
@@ -61,7 +61,7 @@ public class MatrixCheckTest {
     }
 
     /**
-     * Массив из диагонали матрицы
+     * Диагональ
      */
 
     @Test
@@ -101,7 +101,7 @@ public class MatrixCheckTest {
     }
 
     /**
-     * Выигрышные комбинации в сокобан
+     * Сокобан
      */
 
     @Test
