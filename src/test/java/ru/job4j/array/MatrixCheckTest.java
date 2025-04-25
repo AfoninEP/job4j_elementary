@@ -29,7 +29,6 @@ public class MatrixCheckTest {
         assertThat(result).isFalse();
     }
 
-
     @Test
     public void whenHasMonoVertical() {
         char[][] input = {
@@ -53,7 +52,6 @@ public class MatrixCheckTest {
         boolean result = MatrixCheck.monoVertical(input, column);
         assertThat(result).isFalse();
     }
-
 
     @Test
     public void whenDiagonalFullX() {
@@ -90,7 +88,6 @@ public class MatrixCheckTest {
         char[] expected = {'X', 'Y', 'Z'};
         assertThat(result).containsExactly(expected);
     }
-
 
     @Test
     public void whenDataMonoByTrueThenTrue() {
